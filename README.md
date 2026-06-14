@@ -124,7 +124,7 @@ REDIS_URL=redis://localhost:6379
 ### Clone Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/faizan-22/task-manager-api.git
 cd tasks
 ```
 
@@ -267,6 +267,23 @@ If a task is updated or deleted, cached responses may temporarily return stale d
 - JWT-based authentication.
 - Users can only access their own tasks.
 - Protected endpoints use NestJS Guards.
+
+---
+
+## Screenshots
+### Swagger UI
+![alt text](screenshots/swagger.png)
+
+### Docker Compose
+![alt text](screenshots/docker-compose.png)
+
+---
+
+## Live Demo
+
+API: https://task-manager-0063.onrender.com
+
+Swagger: https://task-manager-0063.onrender.com/docs
 
 ---
 
