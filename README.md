@@ -125,7 +125,7 @@ REDIS_URL=redis://localhost:6379
 
 ```bash
 git clone https://github.com/faizan-22/task-manager-api.git
-cd tasks
+cd task-manager-api
 ```
 
 ### Install Dependencies
@@ -272,10 +272,10 @@ If a task is updated or deleted, cached responses may temporarily return stale d
 
 ## Screenshots
 ### Swagger UI
-![alt text](screenshots/swagger.png)
+![Swagger UI](screenshots/swagger.png)
 
 ### Docker Compose
-![alt text](screenshots/docker-compose.png)
+![Docker Compose](screenshots/docker-compose.png)
 
 ---
 
