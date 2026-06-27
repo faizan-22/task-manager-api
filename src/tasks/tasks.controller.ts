@@ -57,7 +57,7 @@ export class TasksController {
     const cacheKey: string = `${req.originalUrl}:${req.payload.sub}:page=${pagination.page}:limit=${pagination.limit}`;
     let data = await this.cacheService.get(cacheKey);
     if (data == null || data == undefined) {
-      console.log('Cache miss!!');
+      console.log('Cache miss!!!');
       const userId = parseInt(req.payload.sub);
       data = await this.tasksService.findAll(userId, pagination);
       await this.cacheService.set(cacheKey, data, 60000);
