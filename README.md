@@ -110,11 +110,11 @@ src/
 Create a `.env` file in the project root.
 
 ```env
-DATABASE_URL=postgresql://user:password@localhost:5432/tasksdb
+DATABASE_URL="postgresql://user:password@localhost:5432/tasksdb"
 
-SECRET=your_jwt_secret
+SECRET="your_jwt_secret"
 
-REDIS_URL=redis://localhost:6379
+REDIS_DB="redis://localhost:6379"
 ```
 
 ---
